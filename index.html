@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>P&T Services</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+    <header class="text-gray-400 bg-gray-900 body-font" >
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+
+            <div class="logo">
+              <img src="./images/logo.png" alt="">
+            </div>
+
+            <span class="ml-3 text-xl">P&T Services</span>
+          </a>
+          <nav class="nav md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="https://pntservices.com/" class="mr-5 hover:text-white">Home</a>
+            <a href="/" class="mr-5 hover:text-white">About</a>
+            <a href="https://pntservices.com/contact-us" class="mr-5 hover:text-white">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+    <!-- banner -->
+
+    <section class="text-gray-400 bg-gray-900 body-font" id="banner">
+        <div class="container px-5 mx-auto flex flex-col">
+          <div class="lg:w-4/6 mx-auto">
+          </div>
+        </div>
+      </section>
+
+      <!-- ourServices -->
+
+      <section class="text-gray-400 body-font bg-gray-900" id="services">
+        <div class="container px-5 py-24  mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="services lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="heading sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Our Services</h1>
+              <div class="h-1 w-20 bg-blue-500 rounded"></div>
+            </div>
+            <!-- <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> -->
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="data:image/jpeg;base64,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" alt="content">
+                <h2 class="text-lg text-white font-medium title-font mb-4">AC Repair </h2>
+                <p class="leading-relaxed text-base">Advanced technology for precise diagnostics and efficient repairs with Quality service at competitive rates.Contact us today for all your AC repair and maintenance needs. Keep cool with P&T Service!</p>
+                <button class="btn"  id="emailButton" >Request Service</button>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?smartdevice" alt="content">
+                <h2 class="text-lg text-white font-medium title-font mb-4">Smart Home Integration</h2>
+                <p class="leading-relaxed text-base">Seamlessly integrate your AC system with your smart home ecosystem. Control temperature settings, monitor energy usage, and schedule cooling cycles remotely through your smartphone or smart assistant.</p>
+                <button class="btn" id="emailButton" >Request Service</button>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?IOT" alt="content">
+                <h2 class="text-lg text-white font-medium title-font mb-4"><b>HVAC</b> System Installation</h2>
+                <p class="leading-relaxed text-base">Looking to upgrade or install a new HVAC system? Our expert technicians provide professional installation services tailored to your space and needs, maximizing efficiency and performance.</p>
+                <button class="btn" id="emailButton" >Request Service</button>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?smarthome" alt="content">
+                <h2 class="text-lg text-white font-medium title-font mb-4">Remote Monitoring</h2>
+                <p class="leading-relaxed text-base">With our remote monitoring solutions,we keep a close look your AC system's performance in real-time. Predictive maintenance help prevent issues before they occur, ensuring uninterrupted comfort.</p>
+                <button class="btn" id="emailButton" email="aman14jsr@gmail.com">Request Service</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <footer class="text-gray-600 bg-gray-900  body-font" id="footer">
+        <div class="container px-5 py-10 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+
+            <div class="logo">
+              <img src="./images/logo.png" alt="">
+            </div>
+
+            <span class="ml-3 text-xl">P&T Services</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 P&T_Services —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@amansingh</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+      <script>
+        
+        document.getElementById("emailButton").addEventListener("click", function() {
+          
+          var email = 'info.pntservices@gmail.com';
+  
+           var subject = 'Request for Service';
+  
+          var body = 'Name: Your Name\nContact Number: Your Contact Number';
+  
+          var mailtoUrl = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  
+            window.location.href = mailtoUrl;
+        });
+        </script>
+    
+</body>
+</html>
