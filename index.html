@@ -64,7 +64,7 @@
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?smartdevice" alt="content">
                 <h2 class="text-lg text-white font-medium title-font mb-4">Smart Home Integration</h2>
                 <p class="leading-relaxed text-base">Seamlessly integrate your AC system with your smart home ecosystem. Control temperature settings, monitor energy usage, and schedule cooling cycles remotely through your smartphone or smart assistant.</p>
-                <button class="btn" id="emailButton" >Request Service</button>
+                <button class="btn" id="emailButton2" >Request Service</button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -72,7 +72,7 @@
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?IOT" alt="content">
                 <h2 class="text-lg text-white font-medium title-font mb-4"><b>HVAC</b> System Installation</h2>
                 <p class="leading-relaxed text-base">Looking to upgrade or install a new HVAC system? Our expert technicians provide professional installation services tailored to your space and needs, maximizing efficiency and performance.</p>
-                <button class="btn" id="emailButton" >Request Service</button>
+                <button class="btn" id="emailButton3" >Request Service</button>
               </div>
             </div>
             <div class="xl:w-1/4 md:w-1/2 p-4">
@@ -80,7 +80,7 @@
                 <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/720x600/?smarthome" alt="content">
                 <h2 class="text-lg text-white font-medium title-font mb-4">Remote Monitoring</h2>
                 <p class="leading-relaxed text-base">With our remote monitoring solutions,we keep a close look your AC system's performance in real-time. Predictive maintenance help prevent issues before they occur, ensuring uninterrupted comfort.</p>
-                <button class="btn" id="emailButton" email="aman14jsr@gmail.com">Request Service</button>
+                <button class="btn" id="emailButton4" email="aman14jsr@gmail.com">Request Service</button>
               </div>
             </div>
           </div>
@@ -131,6 +131,42 @@
       <script>
         
         document.getElementById("emailButton").addEventListener("click", function() {
+          
+          var email = 'info.pntservices@gmail.com';
+  
+           var subject = 'Request for Service';
+  
+          var body = 'Name: Your Name\nContact Number: Your Contact Number';
+  
+          var mailtoUrl = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  
+            window.location.href = mailtoUrl;
+        });
+           document.getElementById("emailButton2").addEventListener("click", function() {
+          
+          var email = 'info.pntservices@gmail.com';
+  
+           var subject = 'Request for Service';
+  
+          var body = 'Name: Your Name\nContact Number: Your Contact Number';
+  
+          var mailtoUrl = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  
+            window.location.href = mailtoUrl;
+        });
+           document.getElementById("emailButton3").addEventListener("click", function() {
+          
+          var email = 'info.pntservices@gmail.com';
+  
+           var subject = 'Request for Service';
+  
+          var body = 'Name: Your Name\nContact Number: Your Contact Number';
+  
+          var mailtoUrl = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  
+            window.location.href = mailtoUrl;
+        });
+           document.getElementById("emailButton4").addEventListener("click", function() {
           
           var email = 'info.pntservices@gmail.com';
   
